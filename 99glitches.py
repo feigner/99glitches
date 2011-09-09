@@ -1,6 +1,5 @@
 ## 99glitches -- a codex toy
 
-
 import Tkinter as tk
 import os, random, copy, StringIO, time
 from PIL import Image, ImageTk
@@ -49,7 +48,6 @@ class nnGlitches:
 			except:
 				# the image is effd. refresh it. 
 				self.images[self.index] = self.master[self.index]
-				print "readd @ " + str(self.index)
 				pass
 		
 		# 50/50 chance of reprocessing the same image
@@ -57,7 +55,6 @@ class nnGlitches:
 			if self.index >= len(self.image_list)-1: self.index=0
 			else: self.index+=1
 			root.after(100, self.glitch)
-			print self.index
 		else: 
 			root.after(20, self.glitch)
 
