@@ -1,0 +1,5 @@
+99glitches -- a study in JPEG glitching.
+
+Taking a sequence of pictures, 99glitches inserts random data into each picture as it cycles through them, often resulting in a malformed, mangled image. As the program recurses, the glitching is compounded. There is a certain amount of randomness built in, so even for the same set of images, the output will be drastically different -- the end result being a jittery, glitchy, slightly surreal mess.
+
+Ultimately, while the end results is cool, this toy was primarily an excuse to work with Python, specifically TK, PIL and OSC. 
