@@ -2,7 +2,7 @@
 
 
 import Tkinter as tk
-import os, random, copy, OSC, StringIO, time
+import os, random, copy, StringIO, time
 from PIL import Image, ImageTk
 
 class nnGlitches:
